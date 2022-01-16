@@ -64,8 +64,8 @@ ul{
     cursor:pointer;
     position: absolute;/* this kicks the side-menu out of everything else(out of the container)*/
  
-    right:8px ;
-    top: 22px;
+    right:50px ;
+    top: 25px;
     z-index: 2; 
 }
 .side-btn{
@@ -139,8 +139,6 @@ justify-content: flex-end;
 background-size: cover;
 padding:2em;
 margin-bottom: 1em;
-
-
 }
 
 .showcase-text{
@@ -148,6 +146,7 @@ margin-bottom: 1em;
     padding: 0.5em;
     font-size: 1.5em;
     margin-bottom: 0.5em;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .showcase .btn{
     margin-top: 2;
@@ -327,6 +326,10 @@ max-width: 60%;
 
 /* for screens less 650pc*/
 @media(max-width:650px){
+    .showcase-text{
+        padding: 0.4em;
+        font-size: 1.2em;
+    }
     .homecards{
         grid-template-columns: repeat(1,1fr);
     }
